@@ -9,7 +9,7 @@ import kotlinx.serialization.Serializable
 import kotlinx.serialization.json.JsonElement
 
 class RecentBlockhashRequest : RpcRequest() {
-    override val method: String = "getRecentBlockhash"
+    override val method: String = "getLatestBlockhash"
 }
 
 @Serializable
