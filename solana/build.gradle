@@ -100,7 +100,7 @@ publishing {
     repositories {
         maven {
             name = "GitHubPackages"
-            url = "https://maven.pkg.github.com/metaplex-foundation/SolanaKT"
+            url = "https://maven.pkg.github.com/v-GNersisyan/SolanaKT"
             credentials {
                 username = System.getenv("GITHUB_ACTOR")
                 password = System.getenv("GITHUB_TOKEN")
