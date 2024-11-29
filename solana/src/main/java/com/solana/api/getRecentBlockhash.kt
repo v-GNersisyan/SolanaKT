@@ -13,7 +13,7 @@ class RecentBlockhashRequest : RpcRequest() {
 }
 
 @Serializable
-internal data class BlockhashResponse(val blockhash: String, val feeCalculator: JsonElement)
+internal data class BlockhashResponse(val blockhash: String)
 
 internal fun BlockhashSerializer() = SolanaResponseSerializer(BlockhashResponse.serializer())
 
